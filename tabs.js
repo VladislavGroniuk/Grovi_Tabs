@@ -8,8 +8,8 @@ $(document).ready(function () {
         $(this).parent().find("a").removeClass("active");
         $(this).addClass("active");
 
-        $("#"+idTabContentWrapper+" > div.active").fadeOut(1000).removeClass("active");
-        $("#"+idTabContentWrapper+" > div#"+idFor).fadeIn(1000).addClass("active");
+        $("#"+idTabContentWrapper+" > div.active").removeClass("active");
+        $("#"+idTabContentWrapper+" > div#"+idFor).addClass("active");
     });
     /*Tabs*/
 });
